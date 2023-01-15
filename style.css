@@ -2,7 +2,7 @@
   --black: #131313;
   --gray: #727272;
   --dark-gray: #424242;
-  --orange: #FF900E;
+  --orange: #ff900e;
   --light-pink: rgba(255, 144, 14, 0.1);
   --white: #ffffff;
   --primary-font: "Work Sans", sans-serif;
@@ -20,311 +20,319 @@ body {
 CSS COMMON CLASS
 ------------------ */
 .common_title {
-    font-size: 2rem;
-    color: var(--black);
+  font-size: 2rem;
+  color: var(--black);
 }
 .common_paragraph {
-    font-size: .8rem;
-    font-weight: 400;
-    color: var(--gray);
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--gray);
 }
 .common_heading {
-    font-size: ;
-    font-weight: ;
-    color:
+  font-size: 1rem;
+  color: var(--black);
+  font-weight: 600;
+  padding-bottom: 10px;
 }
 .common_button {
-    padding: 10px 20px;
-    background: var(--orange);
-    color: var(--white);
-    border: 0;
-    border-radius: 5px;
+  padding: 10px 20px;
+  background: var(--orange);
+  color: var(--white);
+  border: 0;
+  border-radius: 5px;
 }
 .common_fact {
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--dark-gray);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark-gray);
 }
 /*----------------------
  HEADER SECTION STYLE
  ----------------------- */
 
 .header-section {
-    background: var(--light-pink);
-    padding-bottom: 3rem;
+  background: var(--light-pink);
+  padding-bottom: 3rem;
 }
 .navigation_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 80px;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 .logo_text {
-    font-size: 30px;
-    color: var(--black)
+  font-size: 30px;
+  color: var(--black);
 }
 .logo_text a {
-    text-decoration: none;
-    color: var(--black);
+  text-decoration: none;
+  color: var(--black);
 }
 
 nav > ul {
-    display: flex;
-    list-style: none;
-    gap: 1em;
-    flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  flex-wrap: wrap;
 }
 nav ul li a {
-    text-decoration: none;
-    color: var(--dark-gray);
+  text-decoration: none;
+  color: var(--dark-gray);
 }
 .banner_container {
-    text-align: center;
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .banner_content {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 .banner_title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--black);
-    padding: 3rem 0 1rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--black);
+  padding: 3rem 0 1rem 0;
 }
 .banner_description {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .banner_img img {
-    width: 100%;
-    height: 100%;
-    max-width: 1100px;
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
 }
 /*--------------------------
  QUICK FEATURE SECTION STYLE 
  ---------------------------*/
-.quick_contaniner, .experience_section {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto; 
+.quick_contaniner,
+.experience_section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .quick_feature {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 4rem 5rem;
-    max-width: 1100px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 5rem;
+  max-width: 1100px;
 }
 
 .photo_gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: .5rem;
-    row-gap: .5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
 }
 .photo_gallery img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .common_title .span_1 {
-    font-weight: 500;
-    color: var(--gray);
+  font-weight: 500;
+  color: var(--gray);
 }
 .common_title .span_2 {
-    font-weight: 700;
-    color: var(--black);
+  font-weight: 700;
+  color: var(--black);
 }
 .common_title .span_3 {
-    font-weight: 700;
-    color: var(--orange);
+  font-weight: 700;
+  color: var(--orange);
 }
 .quick_description {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 /* ----------------------
 EXPERIENCE SECTION STYLE
 -------------------------- */
 .experience_section {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto; 
-    padding: 50px 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 .love_enjoy_experience {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6rem;
-    justify-items: center;
-    position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6rem;
+  justify-items: center;
+  position: relative;
+  align-items: center;
 }
 .love_enjoy {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
-.love_enjoy .line_title{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    flex-wrap: wrap;
+.love_enjoy .line_title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .line_title {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 .line_title h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 .experience_section .line {
-    height: 70px;
-    width: 5px;
-    background: var(--orange);
+  height: 70px;
+  width: 5px;
+  background: var(--orange);
 }
 .desktop_mobile {
-    padding: 20px;
-    border: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 7px;
-    margin-bottom: 10px;
+  padding: 20px;
+  border: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
 .experience_image img {
-    width: 100%;
-    max-width: 460px;
+  width: 100%;
+  max-width: 480px;
 }
 .experience_box {
-    position: absolute;
-    display: inline-block;
-    background: var(--orange);
-    top: 36rem;
-    left: 33rem;
-    padding: 35px 30px;
-    border-radius: 7px;
+  position: absolute;
+  display: inline-block;
+  background: var(--orange);
+  top: 40rem;
+  left: 33rem;
+  padding: 35px 30px;
+  border-radius: 7px;
 }
 .experience_box h3 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
 }
 .experience_box p {
-    font-size: 1rem;
-    font-weight: 400;
-    text-align: center;
-    color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
 }
 /*------------------
  SOME FACTS SECTION
 -------------------- */
 .fact_section {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 0;
 }
 .fact_content {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 .fact_content h3 {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 .fact_box {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    text-align: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.fact p {
+  color: var(--gray);
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .fact_box .fact {
-    border: 1px solid var(--orange);
-    border-radius: 6px;
-    height: 160px;
-    width: 160px;
-    padding-top: 25px;
-    transition: .2s;
+  border: 1px solid var(--orange);
+  border-radius: 6px;
+  height: 160px;
+  width: 160px;
+  padding-top: 25px;
+  transition: 0.2s;
 }
 .fact_box .fact:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: skew(3deg);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: skew(3deg);
 }
 
 /* PRICING SECTION STYLE */
 .pricing_section {
-	background: var(--light-pink);
-	width: 100%;
-    max-width: 1100px;
-    padding: 50px 0;
-    margin: 3rem 0;
+  background: var(--light-pink);
+  width: 100%;
+  max-width: 1100px;
+  padding: 50px 0;
+  margin: 3rem 0;
 }
 .pricing_container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .pricing_title h2 {
-    color: var(--black);
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: .5rem;
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
 .follow_text h4 {
-    color: var(--dark-gray);
-    font-size: 1.2rem;
-    font-weight: 500;
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .pricing_button a {
-    color: var(--white);
-    background: var(--orange);
-    font-weight: 700;
-    font-size: 1.2rem;
-    text-decoration: none;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    padding: 25px 40px;
-	transition: .5s;
+  color: var(--white);
+  background: var(--orange);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 25px 40px;
+  transition: 0.5s;
 }
 .pricing_button a:hover {
-    box-shadow: rgba(195, 66, 11, 0.2) 0px 7px 29px 0px;
-    background-color: var(--white);
-    border: 2px solid var(--orange);
-    color: var(--orange);
+  box-shadow: rgba(195, 66, 11, 0.2) 0px 7px 29px 0px;
+  background-color: var(--white);
+  border: 2px solid var(--orange);
+  color: var(--orange);
 }
 /* -------------------
 SPONSOR AREA STYLE
 -------------------- */
 .sponsor_section {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 50px 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 0;
 }
 .sponsor_container {
-    text-align: center;
+  text-align: center;
 }
 .sponsor_title h2 {
-    margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 .sponsor_company {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    filter: grayscale(1);
-    padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  filter: grayscale(1);
+  padding-top: 40px;
 }
 .sponsor_company img {
-    width: 115px;
-    height: 35px;
+  width: 115px;
+  height: 35px;
 }
 
 /*-----------------
@@ -332,14 +340,78 @@ SPONSOR AREA STYLE
 -------------------- */
 
 .footer_section {
-    width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 3rem 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 0;
 }
 .footer_container {
-    background: var(--light-pink);
-    padding: 25px 0;
-    text-align: center;
+  background: var(--light-pink);
+  padding: 25px 0;
+  text-align: center;
 }
 
+/* MEDIA QUIRE START */
+
+@media only screen and (max-width: 576px) {
+  main,
+  .header-section {
+    padding: 0 15px;
+  }
+  .love_enjoy_experience {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-items: center;
+    position: relative;
+    align-items: center;
+  }
+  .experience_box {
+    position: absolute;
+    top: 88rem;
+    left: auto;
+  }
+  .quick_feature {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .photo_gallery {
+    row-gap: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing_title {
+    text-align: center;
+    padding: 15px;
+  }
+  .pricing_title .follow_text {
+    margin-bottom: 30px;
+  }
+  .sponsor_company {
+    gap: 1.5rem;
+  }
+  .fact_box {
+    gap: 1rem;
+  }
+  .fact_content {
+    text-align: center;
+  }
+  .line {
+    display: none;
+  }
+  .love_enjoy .line_title {
+    justify-content: center;
+  }
+  .line_title h3 {
+    text-align: center;
+  }
+  .common_paragraph, 
+  .common_heading,
+  .common_title {
+    text-align: center;
+  }
+  .quick_description .common_button {
+    margin-left: 116px;
+}
+}
