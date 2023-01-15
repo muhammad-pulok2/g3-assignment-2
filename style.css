@@ -368,7 +368,7 @@ SPONSOR AREA STYLE
   }
   .experience_box {
     position: absolute;
-    top: 88rem;
+    top: 84rem;
     left: auto;
   }
   .quick_feature {
@@ -412,6 +412,6 @@ SPONSOR AREA STYLE
     text-align: center;
   }
   .quick_description .common_button {
-    margin-left: 116px;
+    margin-left: 100px;
 }
 }
